@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Nitin Kumar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <h1 class="glow-text flicker">Get in Touch</h1>
+
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:nk7060646828@gmail.com" class="glow-text">nk7060646828@gmail.com</a></li>
+        <li>Phone: +91 7060646828</li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/nitin8268" target="_blank" rel="noopener" class="glow-text">linkedin.com/in/nitin8268</a></li>
+        <li>GitHub: <a href="https://github.com/nitn8268" target="_blank" rel="noopener" class="glow-text">github.com/nitn8268</a></li>
+      </ul>
+
+      <p>If you'd like to collaborate or have any queries, feel free to reach out!</p>
+      <a href="resume.pdf" target="_blank" class="button-glow">Download My Resume (PDF)</a>
+
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>© 2025 Nitin Kumar | Designed with &#10084;&#65039; &lt;|&gt;</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles", {
+      fpsLimit: 60,
+      background: { color: "transparent" },
+      particles: {
+        number: { value: 40, density: { enable: true, area: 800 } },
+        color: { value: "#39ff14" },
+        shape: { type: "circle" },
+        opacity: {
+          value: 0.05,
+          random: true,
+          anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
+        },
+        size: {
+          value: 10,
+          random: true,
+          anim: { enable: true, speed: 3, size_min: 5, sync: false }
+        },
+        move: { enable: true, speed: 0.3, direction: "top", random: true, straight: false, outModes: "out" }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+</html>

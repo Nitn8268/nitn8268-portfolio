@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nitin Kumar - Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1 class="glow-text flicker">Nitin Kumar</h1>
+      <p class="typing-effect">MCA Student & Aspiring Cybersecurity Expert</p>
+      <img src="assets/profile.jpg" alt="Nitin Kumar Profile Photo" />
+      <p class="glow-text home-summary">Motivated and detail-oriented MCA student passionate about technology and cybersecurity.</p>
+    </section>
+
+    <section id="about">
+      <h2 class="glow-text">About Me</h2>
+      <p>Masters in Computer Application (2023-2025) - TULA'S INSTITUTE, Uttarakhand</p>
+      <p>Bachelor of Computer Application (2020-2023) - RAMA INSTITUTE, Uttar Pradesh</p>
+      <p>Based in Kiratpur, Bijnor, Uttar Pradesh, India</p>
+      <a href="resume.pdf" target="_blank" class="button-glow">Download My Resume (PDF)</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nitin Kumar | Designed with &#10084;&#65039; &lt;|&gt;</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles", {
+      fpsLimit: 60,
+      background: { color: "transparent" },
+      particles: {
+        number: { value: 40, density: { enable: true, area: 800 } },
+        color: { value: "#39ff14" },
+        shape: { type: "circle" },
+        opacity: {
+          value: 0.05,
+          random: true,
+          anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
+        },
+        size: {
+          value: 10,
+          random: true,
+          anim: { enable: true, speed: 3, size_min: 5, sync: false }
+        },
+        move: { enable: true, speed: 0.3, direction: "top", random: true, straight: false, outModes: "out" }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+</html>

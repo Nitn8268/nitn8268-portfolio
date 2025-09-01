@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Experience - Nitin Kumar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+        <li><a href="experience.html" class="nav-link active">Experience</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="experience">
+      <h1 class="glow-text flicker">Professional Experience</h1>
+
+      <article>
+        <h2>Freelancer - Independent Contractor</h2>
+        <ul>
+          <li>Open to work on various projects to apply academic knowledge and develop practical skills in Computer Science.</li>
+          <li>Focused on client satisfaction and project success through effective communication and technical expertise.</li>
+        </ul>
+      </article>
+      
+      <article>
+        <h2>Frontend Developer</h2>
+        <ul>
+          <li>Designed and implemented user interfaces for multiple personal projects, ensuring responsive and user-friendly designs.</li>
+          <li>Translated design mock-ups into functional and visually appealing web pages, demonstrating attention to detail and creativity.</li>
+        </ul>
+      </article>
+
+      <h2>Key Achievements</h2>
+      <ul>
+        <li>Successfully developed and maintained responsive interfaces for multiple personal projects.</li>
+        <li>Implemented various framework technologies, enhancing project functionality and aesthetics.</li>
+        <li>Recognized for strong problem-solving skills through academic and project-related experiences.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nitin Kumar | Designed with &#10084;&#65039; &lt;|&gt;</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles", {
+      fpsLimit: 60,
+      background: { color: "transparent" },
+      particles: {
+        number: { value: 40, density: { enable: true, area: 800 } },
+        color: { value: "#39ff14" },
+        shape: { type: "circle" },
+        opacity: {
+          value: 0.05,
+          random: true,
+          anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
+        },
+        size: {
+          value: 10,
+          random: true,
+          anim: { enable: true, speed: 3, size_min: 5, sync: false }
+        },
+        move: { enable: true, speed: 0.3, direction: "top", random: true, straight: false, outModes: "out" }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+</html>

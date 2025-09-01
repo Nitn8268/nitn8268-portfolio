@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills - Nitin Kumar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="skills.html" class="nav-link active">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="skills">
+      <h1 class="glow-text flicker">Technical Skills & Soft Skills</h1>
+
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Web Development: HTML, HTML5, CSS, JavaScript (basic), PHP (learning)</li>
+        <li>Frameworks: Bootstrap</li>
+        <li>Programming Languages: Python (currently working and learning), SQL (Basics)</li>
+        <li>Development Tools: VS Code, Notepad, Notepad++, Eclipse, PyCharm, XAMPP, MySQL Workbench</li>
+        <li>Database Management: Basics of SQL, MySQL Workbench</li>
+        <li>Cybersecurity: Basic understanding, currently deepening knowledge</li>
+        <li>AI Tools: Copilot, PromptHero, LearnPrompting</li>
+      </ul>
+
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Problem Solving</li>
+        <li>Attention to Detail</li>
+        <li>Collaboration</li>
+        <li>Time Management</li>
+        <li>Adaptability</li>
+        <li>Strong Communication Skills</li>
+        <li>Leadership</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nitin Kumar | Designed with &#10084;&#65039; &lt;|&gt;</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles", {
+      fpsLimit: 60,
+      background: { color: "transparent" },
+      particles: {
+        number: { value: 40, density: { enable: true, area: 800 } },
+        color: { value: "#39ff14" },
+        shape: { type: "circle" },
+        opacity: {
+          value: 0.05,
+          random: true,
+          anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
+        },
+        size: {
+          value: 10,
+          random: true,
+          anim: { enable: true, speed: 3, size_min: 5, sync: false }
+        },
+        move: { enable: true, speed: 0.3, direction: "top", random: true, straight: false, outModes: "out" }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+</html>
